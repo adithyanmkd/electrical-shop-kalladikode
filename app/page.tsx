@@ -1,18 +1,16 @@
 import Image from "next/image";
-import IntroContent from "./components/IntroContent";
+import IntroContent from "./components/homePage/IntroContent";
 
-import Footer from "./components/Footer";
-import FeaturedProducts from "./components/FeaturedProducts";
-import Categories from "./components/Categories";
+import Footer from "./components/main/Footer";
+import FeaturedProducts from "./components/homePage/FeaturedProducts";
+import Categories from "./components/homePage/Categories";
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen justify-center">
-      {/* cover image and intro content */}
       <div>
         <IntroContent />
       </div>
-      {/* cover image and intro content ended */}
       <div>
         <FeaturedProducts />
       </div>
